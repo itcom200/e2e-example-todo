@@ -20,7 +20,6 @@ Add new todo item
 
 *** Keywords ***
 Open browser to test page
-    [Arguments]    ${url}
     ${URL} =        Get variable value    ${URL}        https://django-demo-qahive.herokuapp.com/
     ${BROWSER} =    Get variable value    ${BROWSER}    ${DEFAULT_BROWSER}
     ${HEADLESS} =   Get variable value    ${HEADLESS}    ${False}
