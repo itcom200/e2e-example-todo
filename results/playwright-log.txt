@@ -1,0 +1,46 @@
+{"level":30,"time":"2025-04-13T20:44:46.225Z","pid":27540,"hostname":"DESKTOP-K9TNIL8","msg":"Listening on 61871"}
+(node:27540) DeprecationWarning: Calling start() is no longer necessary. It can be safely omitted.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+{"level":30,"time":"2025-04-13T20:44:46.413Z","pid":27540,"hostname":"DESKTOP-K9TNIL8","msg":"Start of node method newBrowser"}
+{"level":30,"time":"2025-04-13T20:44:46.682Z","pid":27540,"hostname":"DESKTOP-K9TNIL8","msg":"Adding browser to stack: chromium, version: 134.0.6998.35"}
+{"level":30,"time":"2025-04-13T20:44:46.683Z","pid":27540,"hostname":"DESKTOP-K9TNIL8","msg":"End of node method newBrowser"}
+{"level":30,"time":"2025-04-13T20:44:46.682Z","pid":27540,"hostname":"DESKTOP-K9TNIL8","msg":"Adding 0 contexts to browser"}
+{"level":30,"time":"2025-04-13T20:44:46.725Z","pid":27540,"hostname":"DESKTOP-K9TNIL8","msg":"Start of node method newPage"}
+{"level":30,"time":"2025-04-13T20:44:46.726Z","pid":27540,"hostname":"DESKTOP-K9TNIL8","msg":"currentBrowser: [object Object]"}
+{"level":30,"time":"2025-04-13T20:44:46.752Z","pid":27540,"hostname":"DESKTOP-K9TNIL8","msg":"Changed active context"}
+{"level":30,"time":"2025-04-13T20:44:46.975Z","pid":27540,"hostname":"DESKTOP-K9TNIL8","msg":"Video path: undefined"}
+{"level":30,"time":"2025-04-13T20:44:46.975Z","pid":27540,"hostname":"DESKTOP-K9TNIL8","msg":"Changed active page"}
+{"level":30,"time":"2025-04-13T20:44:47.078Z","pid":27540,"hostname":"DESKTOP-K9TNIL8","msg":"End of node method newPage"}
+{"level":30,"time":"2025-04-13T20:44:47.093Z","pid":27540,"hostname":"DESKTOP-K9TNIL8","msg":"Start of node method click"}
+{"level":30,"time":"2025-04-13T20:44:47.094Z","pid":27540,"hostname":"DESKTOP-K9TNIL8","msg":"Strict mode is enabled, find Locator with text=Add in page."}
+{"level":30,"time":"2025-04-13T20:44:47.245Z","pid":27540,"hostname":"DESKTOP-K9TNIL8","msg":"End of node method click"}
+{"level":30,"time":"2025-04-13T20:44:47.280Z","pid":27540,"hostname":"DESKTOP-K9TNIL8","msg":"Start of node method fillText"}
+{"level":30,"time":"2025-04-13T20:44:47.281Z","pid":27540,"hostname":"DESKTOP-K9TNIL8","msg":"Strict mode is enabled, find Locator with id=id_name in page."}
+{"level":30,"time":"2025-04-13T20:44:47.324Z","pid":27540,"hostname":"DESKTOP-K9TNIL8","msg":"End of node method fillText"}
+{"level":30,"time":"2025-04-13T20:44:47.336Z","pid":27540,"hostname":"DESKTOP-K9TNIL8","msg":"Start of node method click"}
+{"level":30,"time":"2025-04-13T20:44:47.337Z","pid":27540,"hostname":"DESKTOP-K9TNIL8","msg":"Strict mode is enabled, find Locator with css=button[type=\"submit\"] in page."}
+{"level":30,"time":"2025-04-13T20:44:47.537Z","pid":27540,"hostname":"DESKTOP-K9TNIL8","msg":"End of node method click"}
+{"level":30,"time":"2025-04-13T20:44:47.543Z","pid":27540,"hostname":"DESKTOP-K9TNIL8","msg":"Start of node method waitForElementState"}
+{"level":30,"time":"2025-04-13T20:44:47.543Z","pid":27540,"hostname":"DESKTOP-K9TNIL8","msg":"Strict mode is enabled, find Locator with text=Test001 in page."}
+{"level":30,"time":"2025-04-13T20:44:47.569Z","pid":27540,"hostname":"DESKTOP-K9TNIL8","msg":"End of node method waitForElementState"}
+{"level":30,"time":"2025-04-13T20:44:47.602Z","pid":27540,"hostname":"DESKTOP-K9TNIL8","msg":"Start of node method click"}
+{"level":30,"time":"2025-04-13T20:44:47.602Z","pid":27540,"hostname":"DESKTOP-K9TNIL8","msg":"Strict mode is enabled, find Locator with text=Done in page."}
+{"level":30,"time":"2025-04-13T20:44:47.696Z","pid":27540,"hostname":"DESKTOP-K9TNIL8","msg":"End of node method click"}
+{"level":30,"time":"2025-04-13T20:44:47.712Z","pid":27540,"hostname":"DESKTOP-K9TNIL8","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2025-04-13T20:44:47.718Z","pid":27540,"hostname":"DESKTOP-K9TNIL8","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2025-04-13T20:44:47.722Z","pid":27540,"hostname":"DESKTOP-K9TNIL8","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2025-04-13T20:44:47.724Z","pid":27540,"hostname":"DESKTOP-K9TNIL8","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2025-04-13T20:44:47.727Z","pid":27540,"hostname":"DESKTOP-K9TNIL8","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2025-04-13T20:44:47.729Z","pid":27540,"hostname":"DESKTOP-K9TNIL8","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2025-04-13T20:44:47.734Z","pid":27540,"hostname":"DESKTOP-K9TNIL8","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2025-04-13T20:44:47.736Z","pid":27540,"hostname":"DESKTOP-K9TNIL8","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2025-04-13T20:44:47.742Z","pid":27540,"hostname":"DESKTOP-K9TNIL8","msg":"Changed active context"}
+{"level":30,"time":"2025-04-13T20:44:47.742Z","pid":27540,"hostname":"DESKTOP-K9TNIL8","msg":"Changing current active page: page=bcdf76bc-31ba-4d91-b7e7-a821e8afe36e"}
+{"level":30,"time":"2025-04-13T20:44:47.742Z","pid":27540,"hostname":"DESKTOP-K9TNIL8","msg":"Changed active page"}
+{"level":30,"time":"2025-04-13T20:44:47.746Z","pid":27540,"hostname":"DESKTOP-K9TNIL8","msg":"Start of node method closeContext"}
+{"level":30,"time":"2025-04-13T20:44:47.770Z","pid":27540,"hostname":"DESKTOP-K9TNIL8","msg":"Removed page=3f5b0a43-ead8-493f-9062-59fa7fc92faa from context=8a06b1e2-d65b-492f-b76c-0825ead92031 page stack"}
+{"level":30,"time":"2025-04-13T20:44:47.787Z","pid":27540,"hostname":"DESKTOP-K9TNIL8","msg":"End of node method closeContext"}
+{"level":30,"time":"2025-04-13T20:44:47.800Z","pid":27540,"hostname":"DESKTOP-K9TNIL8","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2025-04-13T20:44:47.800Z","pid":27540,"hostname":"DESKTOP-K9TNIL8","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2025-04-13T20:44:47.845Z","pid":27540,"hostname":"DESKTOP-K9TNIL8","msg":"Start of node method closeAllBrowsers"}
+{"level":30,"time":"2025-04-13T20:44:48.008Z","pid":27540,"hostname":"DESKTOP-K9TNIL8","msg":"End of node method closeAllBrowsers"}
