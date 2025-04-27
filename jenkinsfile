@@ -1,6 +1,9 @@
 pipeline {
     agent any
 
+    options{
+        buildDiscarder(logRotator(numToKeepStr: '3'))
+    }
     stages {
         stage("Clone E2E Repo") {
             steps {
@@ -27,7 +30,7 @@ pipeline {
                 unstableThreshold: 100
             )
         }
-        
+
         success{
             // Notify Slack when build is successful
             slackSend (channel: '#social',
