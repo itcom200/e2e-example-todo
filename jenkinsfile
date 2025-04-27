@@ -1,0 +1,42 @@
+pipeline {
+    agent any
+
+    stages {
+        stage("Clone E2E Repo") {
+            steps {
+                git branch: 'master', url: 'https://github.com/itcom200/e2e-example-todo.git'
+            }
+        }
+
+        stage("Run Robot Framework Tests") {
+            steps {
+                bat 'robot -v URL:http://127.0.0.1:8000/ -v HEADLESS:True -d results testcase/Add_Todo_Tests.robot'
+            }
+        }
+    }
+
+    post {
+        always {
+            // Publish Robot Framework Reports
+            robot(
+                outputPath: 'results',
+                outputFileName: 'output.xml',
+                reportFileName: 'report.html',
+                logFileName: 'log.html',
+                passThreshold: 100,
+                unstableThreshold: 100
+            )
+        }
+        
+        success{
+            // Notify Slack when build is successful
+            slackSend (channel: '#social',
+            message: "Bastest: ${currentBuild.fullDisplayName} Success :tada: after ${currentBuild.durationString} <${env.BUILD_URL}|(Open)>")
+        }
+        failure{
+            // Notify Slack when build fails
+            slackSend (channel: '#social',
+            message: "Bastest: ${currentBuild.fullDisplayName} failed :x: after ${currentBuild.durationString} <${env.BUILD_URL}|(Open)>")
+        }
+    }
+}

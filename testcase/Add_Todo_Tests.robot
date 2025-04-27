@@ -21,3 +21,4 @@ Open browser to test page
     ${HEADLESS}=   Get Variable Value    ${HEADLESS}    False
     New Browser    ${BROWSER}    headless=${HEADLESS}
     New Page    ${URL}
+# robot -v URL:http://127.0.0.1:8000/ -v HEADLESS:True -d results testcase/Add_Todo_Tests.robot
